@@ -13,17 +13,17 @@ namespace Kawak.DomainLayer.Models
     public class Car : Entity
     {
         ///<summary>
-        ///Id of the model of this car (foreign id)
+        ///Id of the version of this car (foreign id)
         ///</summary>
         [Required]
-        public int IdModel { get; set; }
+        public int IdVersion { get; set; }
 
         ///<summary>
-        /// Brand Entity
+        /// Version Entity
         ///</summary>
         [Required]
-        [ForeignKey("IdModel")] 
-        public Model ModelEntity { get; set; }
+        [ForeignKey("IdVersion")] 
+        public Version VersionEntity { get; set; }
 
         ///<summary>
         ///Id of the status of the car (foreign key)
@@ -55,5 +55,10 @@ namespace Kawak.DomainLayer.Models
         ///</summary>
         [Required]
         public string Location { get; set; }
+
+        ///<summary>
+        ///Car color
+        ///</summary>
+        public string Color { get; set; }
     }
 }
