@@ -1,9 +1,0 @@
-D:\ESTUDIO\Estudiar BPF\Projects\KawakCarsSales\Kawak.DomainLayer\bin\Debug\netstandard2.0\Kawak.DomainLayer.deps.json
-D:\ESTUDIO\Estudiar BPF\Projects\KawakCarsSales\Kawak.DomainLayer\bin\Debug\netstandard2.0\Kawak.DomainLayer.dll
-D:\ESTUDIO\Estudiar BPF\Projects\KawakCarsSales\Kawak.DomainLayer\bin\Debug\netstandard2.0\Kawak.DomainLayer.pdb
-D:\ESTUDIO\Estudiar BPF\Projects\KawakCarsSales\Kawak.DomainLayer\obj\Debug\netstandard2.0\Kawak.DomainLayer.csprojAssemblyReference.cache
-D:\ESTUDIO\Estudiar BPF\Projects\KawakCarsSales\Kawak.DomainLayer\obj\Debug\netstandard2.0\Kawak.DomainLayer.AssemblyInfoInputs.cache
-D:\ESTUDIO\Estudiar BPF\Projects\KawakCarsSales\Kawak.DomainLayer\obj\Debug\netstandard2.0\Kawak.DomainLayer.AssemblyInfo.cs
-D:\ESTUDIO\Estudiar BPF\Projects\KawakCarsSales\Kawak.DomainLayer\obj\Debug\netstandard2.0\Kawak.DomainLayer.csproj.CoreCompileInputs.cache
-D:\ESTUDIO\Estudiar BPF\Projects\KawakCarsSales\Kawak.DomainLayer\obj\Debug\netstandard2.0\Kawak.DomainLayer.dll
-D:\ESTUDIO\Estudiar BPF\Projects\KawakCarsSales\Kawak.DomainLayer\obj\Debug\netstandard2.0\Kawak.DomainLayer.pdb
