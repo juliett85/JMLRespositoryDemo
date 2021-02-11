@@ -4,17 +4,17 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Kavak.DomainLayer.Models
+namespace Kavak.DomainLayer.Models.Coders
 {
     /// <summary>
-    /// Brand entity model
+    /// Fuel entity model
     /// </summary>
-    public class Brand : Entity
+    public class Fuel : Entity
     {
-        /// <summary>
-        /// Brand name
-        /// </summary>
+        ///<summary>
+        ///Fuel type
+        ///</summary>
         [Required]
-        public string Name { get; set; }
+        public string Type { get; set; }
     }
 }

@@ -7,13 +7,13 @@ using System.Text;
 namespace Kavak.DomainLayer.Models
 {
     /// <summary>
-    /// Brand entity model
+    /// Year entity model
     /// </summary>
-    public class Brand : Entity
+    public class Year : Entity
     {
-        /// <summary>
-        /// Brand name
-        /// </summary>
+        ///<summary>
+        ///Year name
+        ///</summary>
         [Required]
         public string Name { get; set; }
     }

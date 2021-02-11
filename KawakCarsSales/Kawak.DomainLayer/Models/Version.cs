@@ -1,11 +1,12 @@
-﻿using Kawak.DomainLayer.Entities.Base;
+﻿using Kavak.DomainLayer.Entities.Base;
+using Kavak.DomainLayer.Models.Coders;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Kawak.DomainLayer.Models
+namespace Kavak.DomainLayer.Models
 {
     /// <summary>
     /// Version entity model 
@@ -26,19 +27,48 @@ namespace Kawak.DomainLayer.Models
         public Transmission TransmissionEntity { get; set; }
 
         ///<summary>
+        /// Id of the doors amount of this version (foreign key)
+        ///</summary>
+        [Required]
+        public int IdDoors { get; set; }
+
+        ///<summary>
+        /// Doors Entity
+        ///</summary>
+        [Required]
+        [ForeignKey("IdDoors")]
+        public Doors DoorsEntity { get; set; }
+
+        ///<summary>
+        /// Id of the traction of this version (foreign key)
+        ///</summary>
+        [Required]
+        public int IdTraction { get; set; }
+
+        ///<summary>
+        /// Traction Entity
+        ///</summary>
+        [Required]
+        [ForeignKey("IdTraction")]
+        public Traction TractionEntity { get; set; }
+
+        ///<summary>
+        /// Id of the fuel of this version (foreign key)
+        ///</summary>
+        [Required]
+        public int IdFuel { get; set; }
+
+        ///<summary>
+        /// Fuel Entity
+        ///</summary>
+        [Required]
+        [ForeignKey("IdFuel")]
+        public Fuel FuelEntity { get; set; }
+
+        ///<summary>
         ///Version name 
         ///</summary>
         public string Name { get; set; }
-
-        ///<summary>
-        ///Amount of car gates of this version 
-        ///</summary>
-        public int GateAmount { get; set; }
-
-        ///<summary>
-        ///Car traction of this version 
-        ///</summary>
-        public string Traction { get; set; }
 
         ///<summary>
         ///Type of car seats of this version 

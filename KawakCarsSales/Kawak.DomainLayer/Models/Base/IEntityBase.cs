@@ -1,4 +1,4 @@
-﻿namespace Kawak.DomainLayer.Entities.Base
+﻿namespace Kavak.DomainLayer.Entities.Base
 {
     public interface IEntityBase<TId>
     {

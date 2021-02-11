@@ -1,18 +1,18 @@
-﻿using Kawak.DomainLayer.Entities.Base;
+﻿using Kavak.DomainLayer.Entities.Base;
 using System.ComponentModel.DataAnnotations;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Kawak.DomainLayer.Models
+namespace Kavak.DomainLayer.Models.Coders
 {
     /// <summary>
-    /// Status entity model
+    /// Traction entity model
     /// </summary>
-    public class Status : Entity
+    public class Traction : Entity
     {
         ///<summary>
-        ///Status name
+        ///Traction name
         ///</summary>
         [Required]
         public string Name { get; set; }

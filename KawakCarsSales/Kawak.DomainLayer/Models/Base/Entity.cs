@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Kawak.DomainLayer.Entities.Base
+namespace Kavak.DomainLayer.Entities.Base
 {
     public abstract class Entity: IEntityBase<int>
     {

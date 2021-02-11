@@ -1,9 +1,10 @@
-﻿using Kawak.DomainLayer.Entities.Base;
+﻿using Kavak.DomainLayer.Entities.Base;
+using System.ComponentModel.DataAnnotations;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Kawak.DomainLayer.Models
+namespace Kavak.DomainLayer.Models.Coders
 {
     /// <summary>
     /// Transmission entity model
@@ -12,7 +13,8 @@ namespace Kawak.DomainLayer.Models
     {
         ///<summary>
         ///Transmission name
-        ///</summary>
+        ///</summary>        
+        [Required]
         public string Name { get; set; }
     }
 }

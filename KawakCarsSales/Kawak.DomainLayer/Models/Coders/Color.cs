@@ -4,16 +4,16 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Kavak.DomainLayer.Models
+namespace Kavak.DomainLayer.Models.Coders
 {
     /// <summary>
-    /// Brand entity model
+    /// Color entity model
     /// </summary>
-    public class Brand : Entity
+    public class Color : Entity
     {
-        /// <summary>
-        /// Brand name
-        /// </summary>
+        ///<summary>
+        ///Color name
+        ///</summary>
         [Required]
         public string Name { get; set; }
     }

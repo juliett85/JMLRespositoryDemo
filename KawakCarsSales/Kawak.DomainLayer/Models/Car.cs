@@ -1,11 +1,12 @@
-﻿using Kawak.DomainLayer.Entities.Base;
+﻿using Kavak.DomainLayer.Entities.Base;
+using Kavak.DomainLayer.Models.Coders;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Kawak.DomainLayer.Models
+namespace Kavak.DomainLayer.Models
 {
     /// <summary>
     /// Car entity model
@@ -22,7 +23,7 @@ namespace Kawak.DomainLayer.Models
         /// Version Entity
         ///</summary>
         [Required]
-        [ForeignKey("IdVersion")] 
+        [ForeignKey("IdVersion")]
         public Version VersionEntity { get; set; }
 
         ///<summary>
@@ -35,8 +36,21 @@ namespace Kawak.DomainLayer.Models
         ///Status Entity
         ///</summary>
         [Required]
-        [ForeignKey("IdStatus")] 
-        public Status StatusEntity { get; set; } 
+        [ForeignKey("IdStatus")]
+        public Status StatusEntity { get; set; }
+
+        ///<summary>
+        ///Id of the color of the car (foreign key)
+        ///</summary>
+        [Required]
+        public int IdColor { get; set; }
+
+        ///<summary>
+        ///Color Entity
+        ///</summary>
+        [Required]
+        [ForeignKey("IdColor")]
+        public Color ColorEntiy { get; set; }
 
         ///<summary>
         /// Car price
@@ -55,10 +69,5 @@ namespace Kawak.DomainLayer.Models
         ///</summary>
         [Required]
         public string Location { get; set; }
-
-        ///<summary>
-        ///Car color
-        ///</summary>
-        public string Color { get; set; }
     }
 }
