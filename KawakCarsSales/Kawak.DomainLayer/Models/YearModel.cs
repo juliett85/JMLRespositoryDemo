@@ -10,7 +10,7 @@ namespace Kavak.DomainLayer.Models
     /// <summary>
     /// Entity model of relationship between year entity and model entity
     /// </summary>
-    class YearModel : Entity
+    public class YearModel : Entity
     {
         ///<summary>
         /// Id of year of this model (foreign key)

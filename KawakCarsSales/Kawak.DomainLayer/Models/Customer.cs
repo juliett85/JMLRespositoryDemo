@@ -9,7 +9,7 @@ namespace Kavak.DomainLayer.Models
     /// <summary>
     /// Custumer entity model
     /// </summary>
-    public class Costumer : EntityBase
+    public class Customer : EntityBase
     {
         ///<summary>
         ///Customer telephone
