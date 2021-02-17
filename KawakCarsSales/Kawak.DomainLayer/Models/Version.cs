@@ -11,7 +11,7 @@ namespace Kavak.DomainLayer.Models
     /// <summary>
     /// Version entity model 
     /// </summary>
-    public class Version : Entity
+    public class Version : EntityBase
     {
         ///<summary>
         /// Id of the transmision of this version (foreign key)
@@ -64,11 +64,6 @@ namespace Kavak.DomainLayer.Models
         [Required]
         [ForeignKey("IdFuel")]
         public Fuel FuelEntity { get; set; }
-
-        ///<summary>
-        ///Version name 
-        ///</summary>
-        public string Name { get; set; }
 
         ///<summary>
         ///Type of car seats of this version 

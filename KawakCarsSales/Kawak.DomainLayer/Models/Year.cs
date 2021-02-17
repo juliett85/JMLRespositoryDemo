@@ -9,12 +9,8 @@ namespace Kavak.DomainLayer.Models
     /// <summary>
     /// Year entity model
     /// </summary>
-    public class Year : Entity
+    public class Year : EntityBase
     {
-        ///<summary>
-        ///Year name
-        ///</summary>
-        [Required]
-        public string Name { get; set; }
+
     }
 }

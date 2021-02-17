@@ -9,12 +9,8 @@ namespace Kavak.DomainLayer.Models.Coders
     /// <summary>
     /// Traction entity model
     /// </summary>
-    public class Traction : Entity
+    public class Traction : EntityBase
     {
-        ///<summary>
-        ///Traction name
-        ///</summary>
-        [Required]
-        public string Name { get; set; }
+
     }
 }

@@ -9,12 +9,8 @@ namespace Kavak.DomainLayer.Models.Coders
     /// <summary>
     /// Status entity model
     /// </summary>
-    public class Status : Entity
+    public class Status : EntityBase
     {
-        ///<summary>
-        ///Status name
-        ///</summary>
-        [Required]
-        public string Name { get; set; }
+
     }
 }

@@ -9,12 +9,8 @@ namespace Kavak.DomainLayer.Models.Coders
     /// <summary>
     /// Color entity model
     /// </summary>
-    public class Color : Entity
+    public class Color : EntityBase
     {
-        ///<summary>
-        ///Color name
-        ///</summary>
-        [Required]
-        public string Name { get; set; }
+
     }
 }

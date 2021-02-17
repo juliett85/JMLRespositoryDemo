@@ -10,7 +10,7 @@ namespace Kavak.DomainLayer.Models
     /// <summary>
     /// Model entity model
     /// </summary>
-    public class Model : Entity
+    public class Model : EntityBase
     {
         ///<summary>
         ///Id of the brand of this model (foreign id)
@@ -24,11 +24,5 @@ namespace Kavak.DomainLayer.Models
         [Required]
         [ForeignKey("IdBrand")]
         public Brand BrandEntity { get; set; }
-
-        ///<summary>
-        ///Model name
-        ///</summary>
-        [Required]
-        public string Name { get; set; }
     }
 }

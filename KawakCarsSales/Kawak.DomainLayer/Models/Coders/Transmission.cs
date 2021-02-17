@@ -9,12 +9,8 @@ namespace Kavak.DomainLayer.Models.Coders
     /// <summary>
     /// Transmission entity model
     /// </summary>
-    public class Transmission : Entity
+    public class Transmission : EntityBase
     {
-        ///<summary>
-        ///Transmission name
-        ///</summary>        
-        [Required]
-        public string Name { get; set; }
+ 
     }
 }

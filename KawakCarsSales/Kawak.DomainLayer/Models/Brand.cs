@@ -9,12 +9,8 @@ namespace Kavak.DomainLayer.Models
     /// <summary>
     /// Brand entity model
     /// </summary>
-    public class Brand : Entity
+    public class Brand : EntityBase
     {
-        /// <summary>
-        /// Brand name
-        /// </summary>
-        [Required]
-        public string Name { get; set; }
+
     }
 }
